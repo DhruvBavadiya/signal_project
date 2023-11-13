@@ -3,7 +3,7 @@
 
 ## Add Signal Light Data
 
-- **Route:** `/add-signal-light`
+- **Route:** `app/p1/add-signal-light`
 - **Method:** POST
 - **Description:** Adds new signal light data to the system.
 - **Request Body:**
@@ -12,7 +12,7 @@
 
 ## Update Signal
 
-- **Route:** `/update-signal/:Id`
+- **Route:** `app/p1/update-signal/:Id`
 - **Method:** PUT
 - **Description:** Updates information about a specific signal.
 - **Request Parameters:**
@@ -22,13 +22,13 @@
 
 ## Get All Signals
 
-- **Route:** `/get-signal`
+- **Route:** `app/p1/get-signal`
 - **Method:** GET
 - **Description:** Retrieves information about all signals.
 
 ## Get Signal by ID
 
-- **Route:** `/get-signal/:Id`
+- **Route:** `app/p1/get-signal/:Id`
 - **Method:** GET
 - **Description:** Retrieves information about a specific signal.
 - **Request Parameters:**
@@ -36,7 +36,7 @@
 
 ## Get Signals by Coordinates
 
-- **Route:** `/get-signal/bycoordinates`
+- **Route:** `app/p1/get-signal/bycoordinates`
 - **Method:** GET
 - **Description:** Finds signals based on geographical coordinates.
 - **Request Body:**
